@@ -1,0 +1,58 @@
+/* Reset browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global CSS */
+  .container {
+    width: 85%;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+  }
+  .coloumn {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+  /* set kich thuoc coloumn */
+  .coloumn-4 {
+    width: calc(100% / 4);
+  }
+  
+  /* Header Main */
+  .header-main {
+    width: 100%;
+    height: 100px;
+    background-color: #02534B;
+  }
+  
+  /* product-hot */
+  .product-hot {
+    padding: 100px 0;
+    width: 100%;
+    background-color: #FAEFEC;
+  }
+  
+  .box-images img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box-content {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+    padding: 0 15px;
+  }
+  .box-content h3 {
+    font-size: 18px;
+    color: #111;
+    text-transform: uppercase;
+  }
